@@ -3,6 +3,7 @@ package com.example.android.tnt_v2;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,6 +36,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.List;
+
 
 /**
  * Created by Wei on 25/07/16.
@@ -50,9 +53,11 @@ public class ExpenditureFragment extends Fragment {
 
 
 
-        View rootView = inflater.inflate(R.layout.list, container, false);
+        View rootView = inflater.inflate(R.layout.card, container, false);
 
         return rootView;
     }
+
+
 }
 

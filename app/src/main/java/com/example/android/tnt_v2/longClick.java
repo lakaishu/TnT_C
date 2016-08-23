@@ -66,7 +66,7 @@ public class longClick implements View.OnLongClickListener {
 
 
                             //((MainActivity) context).countRecords();
-                            ((MainActivity) context).readRecords();
+                            //((MainActivity) context).readRecords();
 
                         }
                         dialog.dismiss();
@@ -120,7 +120,7 @@ public class longClick implements View.OnLongClickListener {
 
 
                                 //((MainActivity) context).countRecords();
-                                ((MainActivity) context).readRecords();
+                                //((MainActivity) context).readRecords();
 
                                 dialog.cancel();
                             }
